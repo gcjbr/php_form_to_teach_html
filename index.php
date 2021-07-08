@@ -3,8 +3,8 @@
 
 if (!empty($_POST)) {
     echo "<h2>Dados enviados via POST</h2>";
-    echo "<table>";
-    echo "<thead><tr><td>Chave</td><td>Valor</td></tr></thead>";
+    echo "<table border='1'>";
+    echo "<thead><tr><td><strong>Chave</strong></td><td><strong>Valor</strong></td></tr></thead>";
     foreach ($_POST as $key => $value) {
         echo "<tr>";
         echo "<td>";
@@ -20,8 +20,8 @@ if (!empty($_POST)) {
 
 if (!empty($_GET)) {
     echo "<h2>Dados enviados via GET</h2>";
-    echo "<table>";
-    echo "<thead><tr><td>Chave</td><td>Valor</td></tr></thead>";
+    echo "<table border='1'>";
+    echo "<thead><tr><td><strong>Chave</strong></td><td><strong>Valor</strong></td></tr></thead>";
     foreach ($_GET as $key => $value) {
         echo "<tr>";
         echo "<td>";
